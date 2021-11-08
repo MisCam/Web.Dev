@@ -1,0 +1,10 @@
+.blocks {
+    width: 810px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.blocks div:nth-child(2), .blocks div:nth-child(4){
+    margin-right: 0;
+}

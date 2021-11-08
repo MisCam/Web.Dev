@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first_text {
+    color: #514040;
+    font-size: 18px;
+    margin-top: 140px;
+}
+
+.second_text{
+    font-size: 45px;
+    color: #313131;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}

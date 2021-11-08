@@ -1,0 +1,10 @@
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 140px;
+    font-size: 45px;
+    color: #313131;
+    margin-bottom: 53px;
+}

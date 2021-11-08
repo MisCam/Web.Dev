@@ -1,0 +1,24 @@
+.work {
+    width: 480px;
+    height: 410px;
+    position: relative;
+}
+
+.title {
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    font-size: 28px;
+}
+
+.btn {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    font-size: 18px;
+    background-color: transparent;
+    color: #49AD09;
+    border: none;
+    text-decoration: underline;
+    cursor: pointer;
+}

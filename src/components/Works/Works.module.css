@@ -1,0 +1,17 @@
+.portfolio {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 80px;
+}
+
+.portfolio .column:nth-child(1) {
+    margin-right: 50px;
+}
+
+.portfolio .column:nth-child(2) {
+    margin-top: 55px;
+}
+
+.column div:nth-child(1) {
+    margin-bottom: 70px;
+}

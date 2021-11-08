@@ -1,0 +1,8 @@
+.price_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+    width: 1162px;
+}
