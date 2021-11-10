@@ -1,14 +1,62 @@
-.button {
+button {
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.25s ease-in-out;
+    cursor: pointer;
+}
+
+.bigButton {
     width: 225px;
     height: 58px;
+}
+
+.smallButton {
+    width: 152px;
+    height: 58px;
+}
+
+.verySmallButton {
+    width: 111px;
+    height: 58px;
+}
+
+.greenButton {
     background-color: #49AD09;
     color: white;
-    border: none;
     box-shadow: 0px 100px 80px rgba(49, 49, 49, 0.1), 
                 0px 64.8148px 46.8519px rgba(49, 49, 49, 0.0759259), 
                 0px 38.5185px 25.4815px rgba(49, 49, 49, 0.0607407), 
                 0px 20px 13px rgba(49, 49, 49, 0.05), 
                 0px 8.14815px 6.51852px rgba(49, 49, 49, 0.0392593), 
                 0px 1.85185px 3.14815px rgba(49, 49, 49, 0.0240741);
+}
+
+.greenButton:hover {
+    background-color: #aaf17d;
+}
+
+.transparentAndBorder {
+    background-color: transparent;
+    border: 1px solid #514040;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 100px 80px rgba(49, 49, 49, 0.1)) drop-shadow(0px 64.8148px 46.8519px rgba(49, 49, 49, 0.0759259)) drop-shadow(0px 38.5185px 25.4815px rgba(49, 49, 49, 0.0607407)) drop-shadow(0px 20px 13px rgba(49, 49, 49, 0.05)) drop-shadow(0px 8.14815px 6.51852px rgba(49, 49, 49, 0.0392593)) drop-shadow(0px 1.85185px 3.14815px rgba(49, 49, 49, 0.0240741));
     border-radius: 5px;
+    transition: 0.5s ease-in-out;
+    font-size: 18px;
+    color: #514040;
+}
+
+.transparentButton {
+    background-color: transparent;
+    text-decoration: underline;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #514040;
+}
+
+.transparentButton:hover, .transparentAndBorder:hover{
+    color: #49AD09;
 }

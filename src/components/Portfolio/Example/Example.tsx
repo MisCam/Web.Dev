@@ -1,13 +1,13 @@
 import React from 'react';
 
-import styles from './Work.module.css';
+import styles from './Example.module.css';
 
-type WorkType = {
+type ExampleType = {
     image: any;
     title: string;
 }
 
-const Work = (props : WorkType): React.ReactElement => (
+const Example = (props : ExampleType): React.ReactElement => (
     <div className={styles.work}>
         <img src={props.image}/>
         <label className={styles.title}>{props.title}</label>
@@ -15,4 +15,4 @@ const Work = (props : WorkType): React.ReactElement => (
     </div>
 )
 
-export default Work;
+export default Example;

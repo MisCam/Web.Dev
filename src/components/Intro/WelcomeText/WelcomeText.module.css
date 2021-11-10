@@ -1,0 +1,49 @@
+.center_content {
+    margin-top: 146px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.title_center {
+    font-size: 78px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    line-height: 80px;
+    font-family: Gilroy;
+    font-weight: 800;
+    color: #313131;
+}
+
+.title_center span {
+    font-weight: 800;
+}
+
+.title_center span span {
+    color: #49AD09;
+    font-weight: 800;
+}
+
+.about {
+    text-align: center;
+    font-size: 18px;
+    width: 450px;
+    margin-top: 36px;
+    font-family: Gilroy;
+    color: #514040;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 63px;  
+}
+
+.triangle{
+    text-decoration: none;
+    margin-left: 10px;
+}

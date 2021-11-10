@@ -1,6 +1,10 @@
 import React from 'react';
 
-import Button from '../Button';
+import Button from '../../Button';
+import { BUTTON_SIZE, BUTTON_COLOR } from "../../Button/Button";
+import Triangle from '../../../assets/WatchButtonTriangle.png';
+import Icon from '../../Icon';
+import { ICON_SIZE, ICON_MARGIN } from '../../Icon/Icon';
 
 import styles from './WelcomeText.module.css';
 
@@ -14,8 +18,10 @@ const WelcomeText = (): React.ReactElement => (
             Slingback fabric heels. Thin wraparound ankle strap. Squared heel and toe. Pointed toes. Padded insole with geometrical design.
         </div>
         <div className={styles.buttons}>
-            <Button text="Contact Us"></Button>
-            {/* <button className="watch_video">Watch Video<img className="triangle" src={} alt="triangle"/></button> */}
+            <Button size={BUTTON_SIZE.big} color={BUTTON_COLOR.green}>Contact Us</Button>
+            <Button size={BUTTON_SIZE.big} color={BUTTON_COLOR.transparent}>
+                Watch Video <Icon size={ICON_SIZE.original} margin={ICON_MARGIN.marginLeft13px} image={Triangle} altname="triangle"></Icon>
+            </Button>
         </div>
     </div>
 )

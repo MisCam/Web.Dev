@@ -1,13 +1,15 @@
 import React from "react";
 
-import Star from '../../assets/Star.png';
+import Star from '../../../assets/Star.png';
+import Icon from "../../Icon";
+import { ICON_SIZE, ICON_MARGIN } from "../../Icon/Icon";
 
 import styles from "./Review.module.css";
 
 type ReviewType = {
     title: string;
     mainText: string;
-    mark: number;
+    mark: 1 | 2 | 3 | 4 | 5;
     customerName: string;
 }
 
@@ -21,10 +23,10 @@ const Review = (props : ReviewType): React.ReactElement => {
     <div className={styles.review}>
         <label className={styles.title}>{props.title}</label>
         <label className={styles.main_text}>{props.mainText}</label>
-        <div>
+        <div className={styles.stars}>
             {
                 marks.map( value => (
-                  <img key={value} src={Star} alt="star"/>  
+                  <Icon key={value} size={ICON_SIZE.size18px} margin={ICON_MARGIN.none} image={Star} altname="star"></Icon> 
                 ))
             }
         </div>

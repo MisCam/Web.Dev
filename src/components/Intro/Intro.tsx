@@ -1,8 +1,8 @@
 import React from 'react';
 
 import PageLayout from '../PageLayout';
-import Header from '../Header';
-import WelcomeText from '../WelcomeText';
+import Header from './Header';
+import WelcomeText from './WelcomeText';
 
 import styles from './Intro.module.css';
 

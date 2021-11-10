@@ -2,14 +2,14 @@ import React from "react";
 
 import PageLayout from "../PageLayout";
 import PageTitle from "../PageTitle";
-import Price from "../Price";
+import Price from "./Price";
 
 import styles from "./Pricing.module.css";
 
 const Pricing = (): React.ReactElement => (
   <div className={styles.pricing}>
     <PageLayout>
-      <PageTitle firstText="Pricing" secondText="Pricing Policy" />
+      <PageTitle title="Pricing" subTitle="Pricing Policy" />
       <div className={styles.price_list}>
         <Price
           name="For Starter"
@@ -22,6 +22,7 @@ const Pricing = (): React.ReactElement => (
             "Essential dev tools integrations",
           ]}
           button="Request Demo"
+          isCentral={false}
         />
         <Price
           name="For Teams"
@@ -34,6 +35,7 @@ const Pricing = (): React.ReactElement => (
             "Essential dev tools integrations",
           ]}
           button="Request Demo"
+          isCentral={true}
         />
         <Price
           name="For Company"
@@ -44,6 +46,7 @@ const Pricing = (): React.ReactElement => (
             "Essential dev tools integrations"
           ]}
           button="Contact Us"
+          isCentral={false}
         />
       </div>
     </PageLayout>

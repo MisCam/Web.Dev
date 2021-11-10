@@ -39,6 +39,10 @@
 .contacts .socials .social {
     width: 28px;
     height: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #F2F2F2;
     margin-right: 15px;
 }

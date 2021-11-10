@@ -1,0 +1,29 @@
+img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.normal {
+    width: 28px;
+    height: 28px;
+}
+
+.widthOnly {
+    width: 28px;
+}
+
+.small {
+    width: 18px;
+    height: 18px;
+}
+
+.micro {
+    width: 12px;
+    height: 12px;
+}
+
+.marginLeft13px {
+    margin-left: 13px;
+}
